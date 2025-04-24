@@ -1,0 +1,17 @@
+input 
+#include <stdio.h>
+int main(){
+    float a=10.5;//base 
+    int b=6.5; //height 
+    float area; 
+    
+    area = 0.5* a *b ;
+    
+    printf("the area of the triandle is: %.2f\n",area);
+
+    return 0;
+}
+
+output 
+
+the area of the triandle is: 31.50
