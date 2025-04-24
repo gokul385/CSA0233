@@ -1,3 +1,4 @@
+Input 
 #include <stdio.h>
 int main(){
     float a=3.14159; //pi 
@@ -10,3 +11,5 @@ int main(){
 
     return 0;
 }
+output 
+the area of the circle is: 78.54
