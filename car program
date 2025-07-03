@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<string.h>
+struct Car
+{
+    char make[20];
+    char model[20];
+    int year;
+}c1;
+int main() {
+    strcpy(c1.make,"BMW");
+    strcpy(c1.model,"M3");
+    c1.year=2024;
+    printf("the car name is %s\n",c1.make);
+    printf("the car model is %s\n",c1.model);
+    printf("the car year is %d\n",c1.year);
+    return 0;
+}
+
+output;
+the car name is BMW
+the car model is M3
+the car year is 2024
